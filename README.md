@@ -1,5 +1,5 @@
 # 1. LeNet-5  tensorflow implementation
-# 2. network structure
+### network structure
 ![image](https://user-images.githubusercontent.com/53073447/151538573-46fd140b-6edf-40ea-aec5-392a1b26a683.png)
 
 输入层
@@ -31,7 +31,7 @@ Output层
 - 共有10个节点，分别代表数字0到9，如果节点 i 的输出值为0，则网络识别的结果是数字 i
 
 
-# 3. Loss calculation for one data
+### Loss calculation for one data
 10分类，假设第一个样本(7) onehot编码是[0,0,0,0,0,0,0,1,0,0]
 LeNet-5分类predict第一个样本结果是[8.5153336e-11, 2.7740224e-10, 9.3247691e-06, 3.6015678e-07, 4.3397272e-11, 6.4643867e-11, 1.9824928e-14, 9.9999022e-01, 3.8150852e-10, 8.1198380e-08]
 
